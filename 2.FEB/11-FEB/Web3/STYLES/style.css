@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    background-image: url(/ASSETS/stethoscope.png);
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    background-position: center bottom;
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-options {
+    display: flex;
+    gap: 70px;
+    margin-left: 550px;
+}
+
+.nav-options > li > a {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-options > li > a:hover {
+    text-decoration: underline dotted violet;
+    color: brown;
+}
+
+.cont {
+    /* border: 2px solid red; */
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.l-part {
+    position: relative;
+    /* border: 2px solid black; */
+    top: 140px;
+    left: 100px;
+}
+
+.l-part > h1 {
+    font-size: 80px;
+}
+
+.l-part > p {
+    color: gray;
+    font-size: 19px;
+}
+
+.l-part > a {
+    padding: 10px 26px;
+    background-color: rgb(61, 148, 141);
+    color: white;
+    border-radius: 16px;
+    font-weight: 700;
+    /* margin-top: 155px; */
+}
+
+.l-part > a:hover {
+    background-color: brown;
+    color: burlywood;
+    cursor: pointer;
+}
+
+img[alt="bottomAngle"] {
+    position: relative;
+    left: 510px;
+    bottom: 15px;
+    /* width: 20px; */
+}
+
+img[alt="mouse"] {
+    position: relative;
+    left: 520px;
+    top: 20px;
+}
+
+.r-part {
+    /* border: 2px solid blue; */
+    margin-right: 65px;
+    /* margin-top: 80px; */
+}
+
+
+img[alt="greenBox"] {
+    width: 450px;
+    position: relative;
+    z-index: 1;
+    top: 180px;
+    left: 20px;
+}
+
+img[alt="yellowBox"] {
+    width: 400px;
+    position: absolute;
+    z-index: 2;
+    right: 100px;
+    top: 363px;
+    left: 1080px;
+}
+
+img[alt="doctor"] {
+    width: 500px;
+    position: absolute;
+    z-index: 3;
+    /* background-color: black; */
+    right: 40px;
+}

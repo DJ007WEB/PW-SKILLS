@@ -1,0 +1,14 @@
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo {
+    border: 2px solid teal;
+    text-align: center;
+    padding: 15px 25px;
+}

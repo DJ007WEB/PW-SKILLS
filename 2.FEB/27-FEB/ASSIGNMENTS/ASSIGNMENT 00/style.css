@@ -1,0 +1,32 @@
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    /* border: 2px solid red; */
+    text-align: center;
+    height: auto;
+}
+
+.left , .right , .reset {
+    font-weight: 600;
+}
+
+.sec-lin {
+    display: flex;
+    gap: 4px;
+}
+
+.display {
+    border: 1px solid black;
+    padding: 0px 6px;
+}
+
+.reset-btn {
+    margin-top: 10px;
+}

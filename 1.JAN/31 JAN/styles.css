@@ -1,0 +1,49 @@
+.container {
+    width: 700px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3.1fr);
+}
+
+.box {
+    /* height: 100px;
+    width: 100px; */
+    border: 2px solid black;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: green;
+}
+
+.box3 {
+    background-color: yellow;
+}
+
+.box4 {
+    background-color: pink;
+}
+
+.box5 {
+    background-color: brown;
+}
+
+.box6 {
+    background-color: purple;
+}
+
+.box7 {
+    background-color: violet;
+}
+
+.box8 {
+    background-color: yellowgreen;
+}
+
+.box9 {
+    background-color: red;
+}

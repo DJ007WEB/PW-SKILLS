@@ -1,0 +1,122 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow:hidden; */
+}
+
+/* body {
+  height: 200vh;
+  width: auto;
+  background-image: url(/IMAGE/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+} */
+
+nav {
+  background-color: black;
+  display: flex;
+  gap: 100px;
+  color: white;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.logo {
+  margin-left: 50px;
+  height: 80px;
+}
+
+.logo img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.options {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  border-left: 2px solid white;
+  padding-left: 60px;
+  font-weight: 600;
+}
+
+.options li {
+  list-style: none;
+}
+
+.options li:hover {
+  color: brown;
+  text-decoration: underline dotted yellow;
+  cursor: pointer;
+}
+
+.n-button {
+  background-color: rgb(118, 17, 118);
+  color: white;
+  margin-top: 20px;
+  margin-left: 300px;
+  padding: 4px 22px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+}
+
+.n-button:hover {
+  cursor: pointer;
+  background-color: brown;
+  color: yellowgreen;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/IMAGE/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-position: center;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  text-align: center;
+  position: absolute;
+  /* margin-top: 0px; */
+}
+
+.top {
+  /* border: 2px solid red; */
+  margin-top: 70px;
+}
+
+.top h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+.top p {
+  color: whitesmoke;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.m-button {
+  margin-top: 50px;
+  padding: 8px 50px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(118, 17, 118);
+  border: none;
+  color: white;
+  border-radius: 7px;
+}
+
+.m-button:hover {
+  cursor: pointer;
+  background-color: brown;
+  color: yellowgreen;
+}

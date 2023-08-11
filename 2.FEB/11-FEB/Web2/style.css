@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body , html {
+    height: 150%;
+    width: 100%;
+}
+
+header {
+    background-image: url(/ASSETS/IMAGE/mainBackground.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+}
+
+/* NAV SECTIONS */
+
+.nav-bar {
+    width: 80%;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 4px solid white;
+    margin: auto;
+    padding-left: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.nav-options {
+    display: flex;
+    gap: 50px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+.nav-options>li:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+/* AFTER NAVIGATION BAR */
+
+.nav-cont {
+    height: 350px;
+    width: 60%;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    /* display: flex;
+    flex-direction: column;
+    gap: 25px; */
+}
+
+.nav-cont > h1 {
+    font-size: 70px;
+}
+
+.nav-cont > p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-cont > a {
+    background-color: slateblue;
+    padding: 10px 40px;
+    position: relative;
+    top: 30px;
+    color: white;
+    border-radius: 25px;
+}
+
+.nav-cont > a:hover {
+    background-color: brown;
+    color: beige;
+}
+
+/* HEADER BUTTOM LOGO */
+
+.header-buttom-logo {
+    position: absolute;
+    width: 80%;
+    border: 2px solid white;
+    height: 200px;
+    margin-top: 400px;
+    background-color: white;
+    left: 150px;
+    border-radius: 20px;
+
+}
+
+img[alt="logo name"] {
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+/*  MAIN PART */
+
+main {
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+    background-color: rgb(216, 209, 209);
+    /* position: fixed; */
+    padding-bottom: 100px;
+    border-bottom: none;
+}
+
+.main-heading {
+    margin-top: 150px;
+    margin-left: 600px;
+    font-size: 50px;
+}
+
+/*  MAIN PART CARD SECTION */
+
+.card-cont {
+    /* border: 2px solid black; */
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* FIRST ROW */
+
+.first-row {
+    display: flex;
+    gap: 10px;
+}
+
+.first-row-child {
+    position: relative;
+}
+
+.first-row-child > img {
+    width: 395px;
+    height: 350px;
+    border-radius: 8px;
+}
+
+img[alt="cardImage2"] {
+    margin-top: 15px;
+}
+
+img[alt="cardImage3"] {
+    margin-top: 25px;
+}
+
+.child-box {
+    position: absolute;
+    display: flex;
+    background-color: #fff;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 15px;
+    left: 45px;
+    border-radius: 15px;
+}
+
+.l-part > p {
+    font-size: 20px;
+    color: slateblue;
+}
+
+.r-part > a {
+    background-color: slateblue;
+    color: white;
+    font-size: 20px;
+    padding: 7px 21px;
+    border-radius: 15px;
+}
+
+.r-part > a:hover {
+    background-color: brown;
+    color: beige;
+}
+
+.box2 {
+    bottom: -5px;
+    left: 45px;
+}
+
+.box3 {
+    bottom: -10px;
+    left: 45px;
+}
+
+/* SECOND ROW */
+
+.second-row {
+    display: flex;
+    gap: 10px;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+}
+
+.second-row-child {
+    position: relative;
+}
+
+.second-row-child > img {
+    width: 395px;
+    height: 350px;
+    border-radius: 8px;
+}
+
+img[alt="cardImage4"] {
+    margin-top: 40px;
+}
+
+img[alt="cardImage5"] {
+    margin-top: 25px;
+}
+
+.box4 {
+    bottom: -7px;
+}
+
+.box5 {
+    bottom: -4px;
+}
+
+/* THIRD AND LAST ROW */
+
+
+.third-row {
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.third-row-child {
+    position: relative;
+}
+
+.third-row-child > img {
+    width: 395px;
+    height: 350px;
+    border-radius: 8px;
+}
+
+img[alt="cardImage8"] {
+    margin-top: 15px;
+}
+
+img[alt="cardImage9"] {
+    margin-top: 25px;
+}
+
+/* FOR COOL ANIMATION . WORKING ON LATER */
+
+/* .first-row-child, .second-row-child, .third-row-child:hover {
+    cursor: pointer;
+} */
+
+
+/* AFTER CARD SECTION */
+
+.left-side-img {
+    display: flex;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+img[alt="featureImageBg1"] {
+    /* background-color: white; */
+    width: 500px;
+}
+
+img[alt="featuresImage1"] {
+    height: 350px;
+    width: 368px;
+    position: absolute;
+    left: 90px;
+    bottom: 110px;
+    border-radius: 35px;
+}
+
+.r-side {
+    /* border: 2px solid red; */
+    position: relative;
+    left: 80px;
+}
+
+.r-side > h1 {
+    margin-top: 50px;
+}
+
+.r-side > p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: ghostwhite;
+}
+
+.r-side > a {
+    background-color: slateblue;
+    padding: 7px 20px;
+    color: white;
+    position: relative;
+    top: 10px;
+    border-radius: 30px;
+    font-size: small;
+}
+
+.r-side > a:hover {
+    background-color: brown;
+    color: beige;
+}
+
+
+/* RIGHT SIDE IMAGE PART */
+
+.right-side-img {
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+}
+
+.le-side {
+    margin-top: 50px;
+}
+
+.le-side > h1 {
+    font-size: 60px;
+}
+
+.le-side > p {
+    font-size: 20px;
+    color: ghostwhite;
+}
+
+.le-side > a {
+    background-color: slateblue;
+    padding: 7px 20px;
+    color: white;
+    position: relative;
+    top: 10px;
+    border-radius: 30px;
+    font-size: small;
+}
+
+.le-side > a:hover {
+    background-color: brown;
+    color: beige;
+}
+
+.ri-side {
+    /* border: 2px solid black; */
+    margin-left: 100px;
+    position: relative;
+}
+
+img[alt="featureImageBg2"] {
+    width: 500px;
+}
+
+img[alt="featuresImage2"] {
+    width: 280px;
+    height: 370px;
+    position: absolute;
+    left: 129px;
+    bottom: 110px;
+    border-radius: 25px;
+}
+
+/* NEWS LETTER SECTION */
+
+.news-letter {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(92, 80, 172);
+    color: white;
+    padding: 50px 0px;
+    border-radius: 50px;
+}
+
+.news-letter > h1 {
+    font-size: 55px;
+}
+
+.news-letter > p {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.subscribe {
+    margin-top: 20px;
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+input[type="email"] {
+    background-color: slateblue;
+    border: none;
+    padding: 15px 120px;
+    border-radius: 20px;
+}
+
+
+.sub-icon {
+    position: absolute;
+    left: 350px;
+    top: 17px;
+}
+
+.subscribe > a {
+    background-color: white;
+    font-size: 15px;
+    padding: 15px 40px;
+    border-radius: 20px;
+}
+
+.subscribe > a:hover {
+    background-color: brown;
+    color: beige;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color:  rgb(216, 209, 209);
+    height: 400px;
+}
+
+.footer {
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.footer-logos {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-l > p {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.footer-r {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 450px;
+}
+
+.list-head {
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+li {
+    padding: 10px 0;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: brown;
+}
